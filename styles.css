@@ -1,0 +1,264 @@
+body,
+html {
+    background-color: #E6EFF7;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+h1, h2, p
+{
+    margin: 3%;
+    padding: 0%;
+}
+
+.holder {
+    box-sizing: border-box;
+    height: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 10% 25%;
+    width: 100vw;
+}
+
+.row-holder
+{
+    box-shadow: 5px 5px 20px #888;
+    border-radius: 10px;
+}
+
+.top-row
+{
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.btm-row
+{
+    width: 100%;
+    display: flex;
+}
+
+.subsc
+{
+    border-radius: 0 0 0 10px;
+}
+
+.why
+{
+    border-radius: 0 0 10px 0;
+}
+
+.community, .subsc, .why
+{
+    padding: 5%;
+}
+
+/* Community */
+.top-title
+{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+
+.top-subtitle
+{
+    color: hsl(71, 73%, 54%);
+    font-weight: 400;
+}
+
+.top-desc
+{
+    color: hsl(218, 22%, 67%);
+}
+
+/* Subscription */
+.subsc
+{
+    background-color: hsl(179, 62%, 43%);
+    width: 100%;
+}
+
+.subsc-desc
+{
+    margin-top: 7%;
+}
+
+
+.subsc-price
+{
+    display: inline-block;
+    margin: 0 0 0 3%;
+}
+
+.subsc-price-no
+{
+    margin-top: 7%;
+}
+
+.subsc-price-text
+{
+    margin: 0;
+    color: rgb(255, 255, 255, 0.6);
+}
+
+.signup
+{
+    width: 100%;
+    height:  20%;
+    margin-left: 3%;
+    margin-top: 10%;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/* Why */
+.why
+{
+    background-color: #49BEBD;
+    width: 100%;
+}
+
+.why-desc
+{
+    margin-top: 7%;
+    line-height: 1.5;
+}
+
+/* Footer */
+.footer
+{
+    text-align: center;
+    color: hsl(179, 86%, 25%);
+    margin: 3%;
+}
+
+.solution {
+    display: inline-block;
+}
+
+a {
+    color: hsl(218, 22%, 67%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: salmon;
+}
+
+@media (max-width: 700px)
+{
+    .holder
+    {
+        padding: 15% 7%;
+        overflow-y: auto;
+    }
+
+    .btm-row
+    {
+        display: block;
+    }
+
+    .community,
+    .subsc,
+    .why {
+        padding: 7%;
+    }
+
+        h1, h2, p
+    {
+        margin: 3% 3% 10% 3%;
+        padding: 0;
+    }
+
+
+    /* Community */
+    .top-title
+    {
+        font-size: 1.35rem;
+    }
+
+    .top-subtitle
+    {
+        font-size: 1.1rem;
+    }
+
+    p
+    {
+        font-size: 0.8rem;
+        line-height: 2;
+    }
+
+    /* Subscription */
+    .subsc
+    {
+        width: auto;
+        border-radius: 0;
+    }
+
+    .subsc-subtitle
+    {
+        font-size: 1.1rem;
+    }
+
+    .signup
+    {
+        margin: 0;
+        height: 40px;
+        padding: 0;
+    }
+
+    .subsc-price
+    {
+        margin: 0;
+    }
+
+    .subsc-price-no
+    {
+        margin-left: 8.313px;
+    }
+
+    .subsc-price-text
+    {
+        padding-left: 7px;
+    }
+
+    .subsc-subtitle, .why-subtitle
+    {
+        margin: 3%; 
+    }
+
+
+
+    /* Why */
+
+    .why
+    {
+        width: auto;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .why-desc
+    {
+        line-height: 2;
+    }
+    
+
+    /* Footer */
+    .footer
+    {
+        margin: 5%;
+    }
+
+    .solution
+    {
+        padding: 5px;
+    }
+}
